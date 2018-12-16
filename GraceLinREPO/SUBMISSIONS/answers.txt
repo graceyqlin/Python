@@ -1,0 +1,31 @@
+git clone https://github.com/datasci-w266/2018-summer-main.git
+cd Desktop
+cd YQ
+cd Python
+git clone https://github.com/MIDS-INFO-W18/assignments_upstream_summer18.git
+cd assignments_upstream_summer18
+git remote add upstream https://github.com/MIDS-INFO-W18/assignments_upstream_summer18.git
+git remote remove origin
+git remote add origin https://github.com/MIDS-INFO-W18/GraceLinREPO.git
+git remove -v
+git remote -v
+git remote --help
+git pull upstream master
+cd SUBMISSIONS
+mkdir week_01
+cd week_01
+mkdir s1
+cd s1
+mkdir s3
+cd s3
+cd. > conf.txt
+cd ..
+mkdir s2
+cd s2
+cd. >text_chunk1.txt
+mkdir Advanced
+cd Advanced
+cd. >text_chunk2.txt
+cd..
+history > answers.txt
+DOSKEY /HISTORY >answers.txt
